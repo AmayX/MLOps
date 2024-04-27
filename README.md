@@ -114,6 +114,27 @@ EarlyStopping
 <br>
 <img src="Loss.png" alt="Loss"></img>
 
+### Frontend Details
+Home Page: <br>
+Source: ```templates/index.html``` <br>
+The name of the app is CIFAR Safari. It is a modest webpage with 2 options in it:
+<ol>
+<li>
+Upload image from computer.
+</li>
+<li>
+Upload image from internet link.
+</li>
+</ol>
+
+The footer of the webpage contains the 10 possible classes that an image can be classified into, by the classifier. <br>
+
+Upon, uploading the image by either methods, the image, is then fed into the ```CIFAR10_best.h5``` file as input for classification.
+
+Success Page: <br>
+Source: ```templates/success.html``` <br>
+Upon successful classification, the user is re-directed to the next page, where the top 3 classes predicted by the model are displayed.
+
 ## Deployment Details
 This app has been tested to work with Google Cloud Platform (GCP).<br>
 <strong>Note: To prevent unwanted GCP billings, I had to disable the deployed application. </strong>
