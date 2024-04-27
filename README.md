@@ -115,9 +115,9 @@ EarlyStopping
 <img src="Loss.png" alt="Loss"></img>
 
 ## Deployment Details
-This app has been tested to work with Google Cloud Platform (GCP).
+This app has been tested to work with Google Cloud Platform (GCP).<br>
 <strong>Note: To prevent unwanted GCP billings, I had to disable the deployed application. </strong>
-The deployed app can be re-created using the following steps:
+<br>The deployed app can be re-created using the following steps:
 
 Clone the repo:
 ```
