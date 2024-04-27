@@ -110,7 +110,7 @@ EarlyStopping
 
 <strong>Results: </strong>
 <br>
-<img src="Accuracy.png" alt="Loss"></img>
+<img src="Accuracy.png" alt="Accuracy"></img>
 <br>
 <img src="Loss.png" alt="Loss"></img>
 
@@ -170,7 +170,7 @@ gcloud app browse
 ```
 
 A link with the following template will be opened in your web-browser:
-https://{project-name}.{az}.r.appspot.com/
+https://{project-name}.{availibility-zone}.r.appspot.com/
 
 Now, check the functioning of the app.
 
@@ -200,10 +200,12 @@ The locally deployed app will start running on http://127.0.0.1:5000/
 ### Outputs
 Expected outputs can be found in /outputs folder.
 <b>Homepage:</b>
-<img src="Outputs/Homepage.png" alt="Loss"></img>
+<img src="Outputs/Homepage.png" alt=""></img>
 <b>Testing:</b>
-<img src="Outputs/Upload_via_Computer.png" alt="Loss"></img>
-<img src="Outputs/Upload_via_link.png" alt="Loss"></img>
+Upload from computer:
+<img src="Outputs/Upload_via_Computer.png" alt=""></img>
+Upload from link:
+<img src="Outputs/Upload_via_link.png" alt=""></img>
 
 ### Tested Platform
 - Software
