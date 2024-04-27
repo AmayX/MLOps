@@ -109,6 +109,7 @@ EarlyStopping
 </ol>
 
 <strong>Results: </strong>
+<br>
 <img src="Accuracy.png" alt="Loss"></img>
 <br>
 <img src="Loss.png" alt="Loss"></img>
@@ -176,7 +177,7 @@ python main.py
 The locally deployed app will start running on http://127.0.0.1:5000/
 
 ### Outputs
-Expected outputs can be found in /Outputs folder.
+Expected outputs can be found in /outputs folder.
 <b>Homepage:</b>
 <img src="Outputs/Homepage.png" alt="Loss"></img>
 <b>Testing:</b>
